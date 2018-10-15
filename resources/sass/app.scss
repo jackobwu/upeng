@@ -1,0 +1,32 @@
+// Material Design Icons
+@import "node_modules/@mdi/font/scss/materialdesignicons";
+
+.mdi-spin-fast:before {
+    animation: mdi-spin 0.5s infinite linear;
+}
+
+.navbar {
+    .icon, .user-avatar {
+        margin-right: 0.25rem;
+    }
+    .user-avatar {
+        vertical-align: bottom;
+    }
+}
+
+.level {
+    .level-item {
+        .icon:first-child:not(:last-child) {
+            margin-right: 0.25rem;
+        }
+        &[disabled] {
+            pointer-events: none;
+            opacity: 0.4;
+        }
+    }
+}
+
+
+.modal-card-title {
+    flex-shrink: 1;
+}

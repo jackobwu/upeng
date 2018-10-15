@@ -1,0 +1,19 @@
+@import "node_modules/buefy/src/scss/buefy";
+
+.autocomplete {
+    .dropdown-menu {
+        width: 150%;
+    }
+    .dropdown-item {
+        padding-right: 1rem;
+
+        &.is-hovered, &:hover {
+            background: rgba($primary, 0.3);
+            color: $text;
+        }
+    }
+    .content {
+        text-overflow: ellipsis;
+        overflow-x: hidden;
+    }
+}
